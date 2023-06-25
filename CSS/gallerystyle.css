@@ -1,0 +1,107 @@
+#wrapper {
+  display: grid;
+  grid-template-areas: 
+    "header header header header header"
+    "photogallery photogallery photogallery photogallery navigation"
+    "image1 image1 image2 image2 navigation"
+    "image1 image1 image2 image2 navigation"
+    "image1 image1 image2 image2 navigation"
+}
+
+#header {
+  grid-area: header;
+  border: 1px solid black;
+  padding: 20px ;
+}
+
+#navigation {
+  grid-area: navigation;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#photogallery {
+  grid-area: photogallery;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#image1 {
+  grid-area: image1;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#image2 {
+    grid-area: image2;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #0066cc;
+}
+
+#wrapper {
+  background-image: url("path/to/background-image.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+#wrapper {
+  padding: 20px;
+}
+
+
+#photogallery, #header, #navigation, #image1, #image2{
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+
+#navigation {
+  background-color: #e6e6e6;
+}
+
+#aboutme {
+  background-color: #f7f7f7;
+}
+
+#photogallery h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#photogallery {
+  background-color: #f7f7f7;
+}
+
+#image1{
+  margin-bottom: 20px;
+}
+
+#image2{
+    margin-bottom: 20px;
+}

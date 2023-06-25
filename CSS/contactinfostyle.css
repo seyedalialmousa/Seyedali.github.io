@@ -1,0 +1,120 @@
+#wrapper {
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "contactinfo contactinfo navigation"
+    "main main navigation"
+    "main main navigation"
+    "main2 main2 navigation"
+    "main2 main2 navigation"
+}
+
+#header {
+  grid-area: header;
+  border: 1px solid black;
+  padding: 20px ;
+}
+
+#contactinfo {
+  grid-area: contactinfo;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#header {
+  grid-area: header;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#navigation {
+  grid-area: navigation;
+  justify-self: end;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#main {
+  grid-area: main;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#main2 {
+  grid-area: main2;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+
+h1, h2 {
+  color: #0066cc;
+}
+
+#wrapper {
+  background-image: url("path/to/background-image.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+
+#contactinfo, #header, #navigation, #main, #main2 {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}  
+
+#header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#header {
+  background-color: #f2f2f2;
+}
+
+#contactinfo h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#contactinfo {
+  background-color: #f7f7f7;
+}
+
+#navigation {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+#main {
+  background-color: #fff;
+}
+
+#main2 {
+  background-color: #fff;
+}
+
+#navigation {
+  background-color: #e6e6e6;
+}
+
+#main, #main2 {
+  margin-bottom: 20px;
+}

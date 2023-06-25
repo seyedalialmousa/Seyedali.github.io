@@ -1,0 +1,97 @@
+#wrapper {
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "aboutme aboutme navigation"
+    "main main navigation"
+    "main main navigation"
+    "main main navigation"
+}
+
+#aboutme {
+  grid-area: aboutme;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#header {
+  grid-area: header;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#navigation {
+  grid-area: navigation;
+  justify-self: end;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#main {
+  grid-area: main;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+    h1, h2 {
+      color: #0066cc;
+    }
+
+    #wrapper {
+        background-image: url("path/to/background-image.jpg");
+      background-size: cover;
+    }
+
+h1 {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+#wrapper {
+  padding: 20px;
+}
+
+#aboutme, #header, #navigation, #main {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+#header {
+  background-color: #f2f2f2;
+}
+
+#navigation {
+  background-color: #e6e6e6;
+}
+
+#aboutme {
+  background-color: #f7f7f7;
+}
+
+#main {
+  background-color: #fff;
+}
